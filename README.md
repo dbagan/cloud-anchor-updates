@@ -13,4 +13,4 @@ The source code lives in a private repository. This repository is written by the
 brew install --cask dbagan/tap/cloudanchor
 ```
 
-Once installed, Cloud Anchor updates itself (**Cloud Anchor ▸ Check for Updates…**). Homebrew leaves it alone because the cask is marked `auto_updates`.
+Today, update with `brew upgrade --cask cloudanchor`. In-app updates are coming: a future version will update itself from this feed (**Cloud Anchor ▸ Check for Updates…**), and the cask will then be marked `auto_updates`.
