@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.16.0</title>
+      <pubDate>Sat, 24 Oct 2026 23:57:09 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- Deleting an IAM Identity Center integration while it is still syncing no longer leaves sessions behind for the deleted integration. (#2109)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.16.0/CloudAnchor-0.16.0.zip" length="25229380" type="application/octet-stream" sparkle:edSignature="PQwW3HKjLSRZRNhAyV5nP23keIl3QYTcwisO/n+5aSoAF7XIGOjtrMH2x4yihY26DRW/VPg8CQrfS7G3Ni0FCg=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.15.2</title>
       <pubDate>Sat, 24 Oct 2026 22:59:45 +0000</pubDate>
       <sparkle:version>14</sparkle:version>
@@ -30,6 +41,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: CA7nslnm85WlLo59w58u28n6+tZoPTuKCOA4XxujA+RUTBauZYDM7F7NB/kgV4yKWK3uXFPSWBmZwOZfkr3iAw==
-length: 2461
+edSignature: FTN7YxmM84CpdKh6wp443Xe75HKmSK/KhKqYeol5R+k/Q98YYYUpILqyL0wFpYb3bUoBJTNrNDr4iUvrCabgCg==
+length: 3278
 -->
