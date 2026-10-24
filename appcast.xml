@@ -1,9 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>Cloud Anchor</title>
     <link>https://dbagan.github.io/cloud-anchor-updates/appcast.xml</link>
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
+    <item>
+      <title>Version 0.15.1</title>
+      <pubDate>Sat, 24 Oct 2026 20:14:09 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### Internal
+
+- The release pipeline can now publish the signed Sparkle update feed: the appcast step failed on the first real run because it compared the signed item byte for byte, and `scripts/release/rerun-appcast` publishes the feed for an already-released version without rebuilding. (#2089)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.15.1/CloudAnchor-0.15.1.zip" length="25221437" type="application/octet-stream" sparkle:edSignature="C9fCtRM+5LtEIR2bdSK6bArSdZ3P5CjlwSM4iFUNLMZ/WIDP6crHAqBSxw/oG7zbzrNP5X3JJ5cHXWCRXCjrCw=="></enclosure>
+    </item>
   </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: EeiW0VP3SJcmcaH9Hdutz9xy3pva+JwvJaI0tEs//Fn0POe3pPXOhM5SlKu6aQdHiZDOK1inxiNX8vm8Mo39Ag==
+length: 1609
+-->
