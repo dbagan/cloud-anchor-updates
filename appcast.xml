@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.15.2</title>
+      <pubDate>Sat, 24 Oct 2026 22:59:45 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.15.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- When AWS ends an IAM Identity Center sign-in before it expires, the app and the CLI now say "Signed out by AWS" instead of asking you to sign in with no reason given. (#1680)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.15.2/CloudAnchor-0.15.2.zip" length="25226751" type="application/octet-stream" sparkle:edSignature="QlmO16FgIgSyuTDGQoHA4pd63+VzGeYw384EMTN903lYe/gCROMzq1kE3ba7XIiX6314DR10J1JFJESO+ClfCw=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.15.1</title>
       <pubDate>Sat, 24 Oct 2026 20:14:09 +0000</pubDate>
       <sparkle:version>13</sparkle:version>
@@ -19,6 +30,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: EeiW0VP3SJcmcaH9Hdutz9xy3pva+JwvJaI0tEs//Fn0POe3pPXOhM5SlKu6aQdHiZDOK1inxiNX8vm8Mo39Ag==
-length: 1609
+edSignature: CA7nslnm85WlLo59w58u28n6+tZoPTuKCOA4XxujA+RUTBauZYDM7F7NB/kgV4yKWK3uXFPSWBmZwOZfkr3iAw==
+length: 2461
 -->
