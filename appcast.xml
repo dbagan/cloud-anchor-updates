@@ -7,6 +7,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.17.0</title>
+      <pubDate>Sun, 25 Oct 2026 13:22:47 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- Choose which AWS regions appear in menus and pickers. The Region menus list your shortlist, with the rest under More, and Settings has a new Regions section to pick them. (#2095)
+- More errors now say what happened and what to do instead of "Something went wrong": a file lock that fails, a missing home folder, a session value an AWS file can’t hold, and an `anchor session instances` listing that AWS refuses. (#2065, #2151)
+- The Relaunch and Install and Relaunch buttons are now the standard default button instead of red. (#2041)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.17.0/CloudAnchor-0.17.0.zip" length="25260371" type="application/octet-stream" sparkle:edSignature="Na3AVTZBPvtRfcc9IDB62ZmILX/Mtnntx/2xJ2VC37iovrbPhfmjSNR3I+KNJTkczwi0KbcNrV+iN2zqN/hYCA=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.16.1</title>
       <pubDate>Sun, 25 Oct 2026 03:14:28 +0000</pubDate>
       <sparkle:version>16</sparkle:version>
@@ -56,6 +69,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: OtdupSdmXKTt7fr39D4/FvpD/8wQXP5xzZdsPxBSfBRSGJdqgTe02UNvbdwvh/di7jHC7pjPTMdkA0tR/BUQAQ==
-length: 4267
+edSignature: 7cXdxd1ZkKsJ3tFza/i/FwRPtTWIjaQeRP/DBtTs1SYYilzw8wPQKY7aNeRhGq1NICSuXWM73SUtrFh0lI1nDQ==
+length: 5481
 -->
