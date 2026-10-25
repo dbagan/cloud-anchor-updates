@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.17.1</title>
+      <pubDate>Sun, 25 Oct 2026 20:18:39 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.17.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- **Security:** a lease that names AWS managed policies is now limited to those policies, as the approval sheet shows; before, its region and service limits didn't hold beside them and the session's role could grant more. A lease that combines a custom policy document with managed policies is now refused. (#2169)
+- Leases on a chained role session now work without the role having to trust itself. A federated or Identity Center lease that AWS refuses now says the role must trust itself, or to lease from a chained role instead. (#2172)
+- The lease approval sheet now says correctly that a region-limited lease can reach global services such as IAM only when us-east-1 is one of its regions. (#2166)
+
+### CLI
+
+- `anchor lease request` works right after `anchor session add`; before, the app could refuse it for up to 30 seconds. (#2171)
+- `anchor session status` no longer prints control characters from the caller identity or from an AWS error code. (#2160, #2164)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.17.1/CloudAnchor-0.17.1.zip" length="25275071" type="application/octet-stream" sparkle:edSignature="RWVg7gJclCNxzQAgLdow753zi3941KyXPxznQFy+Hc6Mukki7chfavThsGisqKagblKsRKdW0Mmbvcfc9zRSDg=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.17.0</title>
       <pubDate>Sun, 25 Oct 2026 13:22:47 +0000</pubDate>
       <sparkle:version>18</sparkle:version>
@@ -69,6 +87,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 7cXdxd1ZkKsJ3tFza/i/FwRPtTWIjaQeRP/DBtTs1SYYilzw8wPQKY7aNeRhGq1NICSuXWM73SUtrFh0lI1nDQ==
-length: 5481
+edSignature: VYTWG8cT+kBI3zOk16d73QZHLGB3sUvYDxbBoxXh1e3cPOILQQehF9HbDzbhJGVJzJuEyVmFQNHPt9F9612UCA==
+length: 7125
 -->
