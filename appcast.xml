@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.16.1</title>
+      <pubDate>Sun, 25 Oct 2026 03:14:28 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.16.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- Signing in to IAM Identity Center now finishes in your browser, with no code to type. When the browser can’t be used, or you click Use a Code Instead, the alert shows a code as before and says why. (#1266, #2097)
+
+### CLI
+
+- `anchor session status` no longer prints control characters from a role ARN. (#2128)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.16.1/CloudAnchor-0.16.1.zip" length="25239267" type="application/octet-stream" sparkle:edSignature="8wRUTHUmWBn6EuF1E8a7Ee3XqudVqIr5IK8TiMOI8Ul1Lh6zARqSRTDbPHxYR1dcaNz/l+8cTgsDn2XaLkdjAw=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.16.0</title>
       <pubDate>Sat, 24 Oct 2026 23:57:09 +0000</pubDate>
       <sparkle:version>15</sparkle:version>
@@ -41,6 +56,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: FTN7YxmM84CpdKh6wp443Xe75HKmSK/KhKqYeol5R+k/Q98YYYUpILqyL0wFpYb3bUoBJTNrNDr4iUvrCabgCg==
-length: 3278
+edSignature: OtdupSdmXKTt7fr39D4/FvpD/8wQXP5xzZdsPxBSfBRSGJdqgTe02UNvbdwvh/di7jHC7pjPTMdkA0tR/BUQAQ==
+length: 4267
 -->
