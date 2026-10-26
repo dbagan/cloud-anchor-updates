@@ -7,6 +7,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.17.2</title>
+      <pubDate>Mon, 26 Oct 2026 12:29:02 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.17.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- A lease longer than AWS allows for its role now says so, instead of blaming the role's trust policy. (#2178)
+
+### CLI
+
+- New `anchor lease status <lease-id>` shows a lease and, once it has ended, why: denied, revoked, expired, or refused by AWS. `--output json` carries the reason as `endReason`. (#2177)
+- `anchor lease request --wait` now waits until the lease is ready to use, so a lease AWS refuses to issue exits 6 with its reason instead of reporting success. (#2186)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.17.2/CloudAnchor-0.17.2.zip" length="25289836" type="application/octet-stream" sparkle:edSignature="H6DbzBvDNIxCTPZTEebhAABIFMDmUFNj1GWuwb0gxEFBHOKEqTJZnDs4Q46f8bSq6PsigPcc7X2/jUwxlP71Dg=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.17.1</title>
       <pubDate>Sun, 25 Oct 2026 20:18:39 +0000</pubDate>
       <sparkle:version>19</sparkle:version>
@@ -87,6 +103,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: VYTWG8cT+kBI3zOk16d73QZHLGB3sUvYDxbBoxXh1e3cPOILQQehF9HbDzbhJGVJzJuEyVmFQNHPt9F9612UCA==
-length: 7125
+edSignature: A7tlxr3ZdmdhqocsSqDc7oiedD/zYcXd6tF827gKU295dOLyN7+Rm9YWr6gVoS7ATmrHnSgVd5x9lgTPutBgBw==
+length: 8276
 -->
