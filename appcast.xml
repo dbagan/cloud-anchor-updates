@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.17.4</title>
+      <pubDate>Sat, 31 Oct 2026 23:47:41 +0000</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.17.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### Install
+
+- New Firefox extension that opens each AWS session in its own Firefox container. Install it from https://dbagan.github.io/cloud-anchor-updates/firefox/cloud-anchor-0.0.1.xpi; Firefox then keeps it up to date. (#265)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.17.4/CloudAnchor-0.17.4.zip" length="25310040" type="application/octet-stream" sparkle:edSignature="TtzsOUxWCmcgeF6qbtBKe5HGvPAiGU2fpUPn9E+G3KjUa0v/4wECKI5278NLpvw5YPVKDmpm/Wrddk6qRwImBA=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.17.2</title>
       <pubDate>Mon, 26 Oct 2026 12:29:02 +0000</pubDate>
       <sparkle:version>20</sparkle:version>
@@ -103,6 +114,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: A7tlxr3ZdmdhqocsSqDc7oiedD/zYcXd6tF827gKU295dOLyN7+Rm9YWr6gVoS7ATmrHnSgVd5x9lgTPutBgBw==
-length: 8276
+edSignature: +5VfNviY20ZmNeTw/7kHjOI6TIFykrgcPgr1YmvSi9bStNvzU+suWkeXxicxiYLv8BB+rGig8HI3Exfvrd5kDA==
+length: 9172
 -->
