@@ -1,0 +1,13 @@
+{
+  "addons": {
+    "cloud-anchor@baganfamily.com": {
+      "updates": [
+        {
+          "version": "0.0.1",
+          "update_link": "https://dbagan.github.io/cloud-anchor-updates/firefox/cloud-anchor-0.0.1.xpi",
+          "update_hash": "sha256:46d41cd6f8693177b3715566c95c6f09f97facbbce320b0f17d294745590ee19"
+        }
+      ]
+    }
+  }
+}
