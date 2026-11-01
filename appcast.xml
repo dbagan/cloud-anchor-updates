@@ -7,6 +7,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.18.0</title>
+      <pubDate>Sun, 01 Nov 2026 06:45:19 +0000</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- Settings is redesigned around six tabs: General, Integrations, Credentials, Profiles, Regions and Browsers. They share one width, and the window resizes to fit each tab. Settings reopens on the tab you last used, and links in the app open the tab they name. (#2205, #2206, #2207, #2208, #2209, #2235)
+- Integrations now live in Settings. The Integrations tab lists your IAM Identity Center integrations and SAML identity providers. It shows each one's sign-in state, with Stay signed in and Sign in at launch as checkboxes, and its + menu adds either kind. The Integrations toolbar button and menu items open this tab, and the separate Integrations window is gone. (#2211, #2212, #2213, #2215, #2216)
+- VoiceOver now names the buttons in Settings ▸ Credentials by what they do. (#2243)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.18.0/CloudAnchor-0.18.0.zip" length="25348012" type="application/octet-stream" sparkle:edSignature="Gzsv+VbPsiRay1PQyrU1DVyvrnZVozJ84cQfR8nZgIOOXS3SNsV2RBMjbEXSmqfO842G/M5BP1dJWx56w7rkBg=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.17.4</title>
       <pubDate>Sat, 31 Oct 2026 23:47:41 +0000</pubDate>
       <sparkle:version>22</sparkle:version>
@@ -114,6 +127,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +5VfNviY20ZmNeTw/7kHjOI6TIFykrgcPgr1YmvSi9bStNvzU+suWkeXxicxiYLv8BB+rGig8HI3Exfvrd5kDA==
-length: 9172
+edSignature: Nv0kbpJhG2cLo9wl2MXbfvNv+NNDOTy+ULqHyN20BUfvcXxiSKgmdxWQTshdoxofV4otxhAyiIY2JbRjhT2IDA==
+length: 10637
 -->
