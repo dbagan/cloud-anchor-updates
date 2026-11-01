@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.18.1</title>
+      <pubDate>Sun, 01 Nov 2026 20:05:13 +0000</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- Settings now has a sidebar and stays one size on every pane, so the window no longer jumps between sizes and General no longer leaves empty space. (#2268)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.18.1/CloudAnchor-0.18.1.zip" length="25356647" type="application/octet-stream" sparkle:edSignature="P98A91xn3mgKqN7bf+Ch2h6yPXKnM7H6ayIBnJNvxdLAdYlCJvEM0mbL62FHy5rzb+LGCLmy3YnzD929vxRtBw=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.18.0</title>
       <pubDate>Sun, 01 Nov 2026 06:45:19 +0000</pubDate>
       <sparkle:version>23</sparkle:version>
@@ -127,6 +138,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Nv0kbpJhG2cLo9wl2MXbfvNv+NNDOTy+ULqHyN20BUfvcXxiSKgmdxWQTshdoxofV4otxhAyiIY2JbRjhT2IDA==
-length: 10637
+edSignature: DstJE3DRmvSsIYjpyBhZNLxFLU+lLFKpoPNqjBNbCEFTB3BawamSgqxr9aeZ81angQZqO0AXXAwyCkVpyeV6CA==
+length: 11469
 -->
