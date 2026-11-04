@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.18.2</title>
+      <pubDate>Wed, 04 Nov 2026 19:52:10 +0000</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.18.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- Settings ▸ Browsers has a new Add to Firefox… button for installing the Cloud Anchor extension, with the steps to follow. (#2305)
+
+### CLI
+
+- Tab completes `anchor` commands, plus session IDs and names after session commands such as `anchor session start`. The completion scripts ship inside the app, in `CloudAnchor.app/Contents/Resources/completions/` for zsh, bash and fish; the README and the CLI guide show the one-line setup. (#2271, #2272)
+- The audit log now lives in `~/Library/Application Support/Cloud Anchor/audit/`. An existing log moves there the next time the app starts. (#2275, #2276)
+- `anchor audit list` now says macOS denied access to the audit log (`audit_log_access_denied`) when that is what happened, and no longer blames the signature for other read failures. (#2273)
+- An `aws` call that uses an IAM user session’s long-term keys now fails if Cloud Anchor can’t record the hand-out in its audit log, such as on a full disk, instead of handing out the keys unrecorded. (#2277)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.18.2/CloudAnchor-0.18.2.zip" length="25399706" type="application/octet-stream" sparkle:edSignature="dlAB7XuM/RRC7ngjgSIwZ/yTkEFRTH0tkvL/T2c2feP3263Z9v9DdzZt86vUNUBp7InLYOjfDsidW6RI8B6jCw=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.18.1</title>
       <pubDate>Sun, 01 Nov 2026 20:05:13 +0000</pubDate>
       <sparkle:version>24</sparkle:version>
@@ -138,6 +156,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DstJE3DRmvSsIYjpyBhZNLxFLU+lLFKpoPNqjBNbCEFTB3BawamSgqxr9aeZ81angQZqO0AXXAwyCkVpyeV6CA==
-length: 11469
+edSignature: NZ/SW20DQo1CkIqS3k/SPwl+2T3IpHefmOSPCQHfAcvJq2/05oW9J6uNu2K7cOTdjhzVaap3P7vuu4X3h8M0CA==
+length: 13157
 -->
