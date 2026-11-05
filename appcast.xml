@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.19.0</title>
+      <pubDate>Thu, 05 Nov 2026 13:22:53 +0000</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- Every list of profiles is now sorted by name, with `default` first. (#2328)
+- Settings ▸ Regions shows a checkbox next to each region name. (#2323)
+- Settings ▸ Credentials shows the MFA code command as a real text field, lined up with its label and eye button. (#2321, #2361, #2380)
+- Settings ▸ Integrations lines up the text of SAML and IAM Identity Center rows. (#2331)
+- The Sessions window’s Expires column reads “in 50 min” and no longer repeats the word in every row. (#2360)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.19.0/CloudAnchor-0.19.0.zip" length="25420436" type="application/octet-stream" sparkle:edSignature="uDb+cFgRsaozJ4F3clqitW366vOfs8yAY5AcRYyRnWyzihDN9sInZEu0QirZMB6QvHz1KUdz+WVmTfbj71FrAQ=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.18.2</title>
       <pubDate>Wed, 04 Nov 2026 19:52:10 +0000</pubDate>
       <sparkle:version>25</sparkle:version>
@@ -156,6 +171,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: NZ/SW20DQo1CkIqS3k/SPwl+2T3IpHefmOSPCQHfAcvJq2/05oW9J6uNu2K7cOTdjhzVaap3P7vuu4X3h8M0CA==
-length: 13157
+edSignature: yYdgKTBAndQNEzxmspbcZlyCd7SiaeTDBardOQCMaIXLI/osofRaA2QNJCIP/vkNB+0uGmsh+HEtathcpayNCg==
+length: 14330
 -->
