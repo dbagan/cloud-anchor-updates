@@ -3,9 +3,9 @@
     "cloud-anchor@baganfamily.com": {
       "updates": [
         {
-          "version": "0.20.0",
-          "update_link": "https://dbagan.github.io/cloud-anchor-updates/firefox/cloud-anchor-0.20.0.xpi",
-          "update_hash": "sha256:28215222ecd3779b8b664004958d6d6367f94e684fa34fb9f381331714650b4a"
+          "version": "0.22.0",
+          "update_link": "https://dbagan.github.io/cloud-anchor-updates/firefox/cloud-anchor-0.22.0.xpi",
+          "update_hash": "sha256:da9fc0e9813fe60ce291883642bb70cdc2de9ee6e2c400908cfe45269c825ee8"
         }
       ]
     }
