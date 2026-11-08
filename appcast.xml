@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.22.0</title>
+      <pubDate>Sun, 08 Nov 2026 23:04:37 +0000</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### Docs
+
+- CONTRIBUTING now has a forking guide listing every identifier a fork must change. (#2472)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.22.0/CloudAnchor-0.22.0.zip" length="25508799" type="application/octet-stream" sparkle:edSignature="U9144BH9zi4LuD56+x2+pRVok0p9hRpc8IsyCrIJW8VJ2cyJLzU8JC+suxy1p5kRfsw/OM1ccsWNBJqepniVAg=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.20.0</title>
       <pubDate>Sun, 08 Nov 2026 13:28:07 +0000</pubDate>
       <sparkle:version>27</sparkle:version>
@@ -186,6 +197,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: tJidLBgfC6S3kFOrb4FjfYnPBmU4SuZRwvx6vcv+pMiXFyyytPl009FrjRZmCWz8U7bRVCi57qDWIYrplzC/Dw==
-length: 15415
+edSignature: 5ChpIMyUemP1bkxT+UkSkcVpMHAPJwOtobefUSLt+fJu+3ktuZ16JzDO2kiIwkMibhHJKH+BlJymI3qZrF2TDQ==
+length: 16183
 -->
