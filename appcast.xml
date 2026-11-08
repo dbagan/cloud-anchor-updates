@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for Cloud Anchor.</description>
     <language>en</language>
     <item>
+      <title>Version 0.20.0</title>
+      <pubDate>Sun, 08 Nov 2026 13:28:07 +0000</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### App
+
+- The Cloud Anchor Firefox extension now works end to end: Open Web Console from either session menu opens each AWS session in its own Firefox container while the extension is connected, and the extension popup is searchable, usable from the keyboard and sortable. Slow approvals no longer fail. (#2422, #2424)
+
+### Install
+
+- Every release now carries the Firefox extension package alongside the app. (#2505)]]></description>
+      <enclosure url="https://github.com/dbagan/cloud-anchor-updates/releases/download/v0.20.0/CloudAnchor-0.20.0.zip" length="25505535" type="application/octet-stream" sparkle:edSignature="oYkdaWv09oIJ044Mtjb0s1G3b6f13S6T2XUiL8EeuZbq8GpgAJCfnNeYwSbXlyp2M93u/jMfQSN+MJ3yQNLRCg=="></enclosure>
+    </item>
+    <item>
       <title>Version 0.19.0</title>
       <pubDate>Thu, 05 Nov 2026 13:22:53 +0000</pubDate>
       <sparkle:version>26</sparkle:version>
@@ -171,6 +186,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: yYdgKTBAndQNEzxmspbcZlyCd7SiaeTDBardOQCMaIXLI/osofRaA2QNJCIP/vkNB+0uGmsh+HEtathcpayNCg==
-length: 14330
+edSignature: tJidLBgfC6S3kFOrb4FjfYnPBmU4SuZRwvx6vcv+pMiXFyyytPl009FrjRZmCWz8U7bRVCi57qDWIYrplzC/Dw==
+length: 15415
 -->
